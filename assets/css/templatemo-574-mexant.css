@@ -1010,8 +1010,8 @@ calculator
 */
 
 section.calculator {
-  margin-top: 150px;
-  background-image: url(../images/calculator-bg.jpg);
+  /* margin-top: 150px; */
+  background-image: url(../images/y2dn.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1032,7 +1032,7 @@ section.calculator .section-heading h4 {
 }
 
 #calculate label {
-  color: #fff;
+  color: red;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -1561,6 +1561,8 @@ section.map .info-item a {
   font-weight: 600;
   color: #43ba7f;
   transition: all 0.3s;
+  word-break: break-word; /* Ensure long text breaks properly */
+
 }
 
 section.map .info-item a:hover {
